@@ -1,6 +1,9 @@
 # atom-keyboard-macros package
 
-Keyboard macro extension for Atom.
+Keyboard macro extension for Atom.  
+
+  With a workaround for Japanese localized keyboard on Windows.  
+  NOTE : this can work normal only for Japanese keyboard.
 
 # New Features
 
@@ -8,11 +11,11 @@ In version 0.6.0 or later, it also records the operation of the search & replace
 
 # Shortcuts
 
-```ctrl-x (```  start recording
+```ctrl-x ctrl-a```  start recording (modified from original)
 
-```ctrl-x )```  stop recording
+```ctrl-x ctrl-z```  stop recording (modified from original)
 
-```ctrl-x e```  execute macro
+```ctrl-x ctrl-x```  execute macro (modified from original)
 
 ```ctrl-x ctrl-e```  execute macro N times
 

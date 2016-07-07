@@ -28,7 +28,8 @@ WindowsAndLinuxCharCodeTranslations =
     shifted: 33    # "!"
     unshifted: 49  # "1"
   50:
-    shifted: 64    # "@"
+#    shifted: 64    # "@"
+    shifted: 34     # """
     unshifted: 50  # "2"
   51:
     shifted: 35    # "#"
@@ -40,29 +41,39 @@ WindowsAndLinuxCharCodeTranslations =
     shifted: 37    # "%"
     unshifted: 53  # "5"
   54:
-    shifted: 94    # "^"
+#    shifted: 94    # "^"
+    shifted: 38     # "&"
     unshifted: 54  # "6"
   55:
-    shifted: 38    # "&"
+#    shifted: 38    # "&"
+    shifted:  39    # "'"
     unshifted: 55  # "7"
   56:
-    shifted: 42    # "*"
+#    shifted: 42    # "*"
+    shifted:  40    # "("
     unshifted: 56  # "8"
   57:
-    shifted: 40    # "("
+#    shifted: 40    # "("
+    shifted:  41    # ")"
     unshifted: 57  # "9"
   186:
-    shifted: 58    # ":"
-    unshifted: 59  # ";"
+#    shifted: 43     # "+"
+#    unshifted: 59  # ";"
+    shifted: 42     # "*"
+    unshifted: 58  # ":"
   187:
-    shifted: 43    # "+"
-    unshifted: 61  # "="
+#    shifted: 43    # "+"
+#    unshifted: 61  # "="
+    shifted: 43     # "+"
+    unshifted: 59  # ";"
   188:
     shifted: 60    # "<"
     unshifted: 44  # ","
   189:
-    shifted: 95    # "_"
-    unshifted: 45  # "-"
+#    shifted: 95    # "_"
+#    unshifted: 45  # "-"
+    shifted:  61    # "="
+    unshifted:  45  # "-"
   190:
     shifted: 62    # ">"
     unshifted: 46  # "."
@@ -70,8 +81,10 @@ WindowsAndLinuxCharCodeTranslations =
     shifted: 63    # "?"
     unshifted: 47  # "/"
   192:
-    shifted: 126   # "~"
-    unshifted: 96  # "`"
+#    shifted: 126   # "~"
+#    unshifted: 96  # "`"
+    shifted: 96    # "`"
+    unshifted: 64  # "@"
   219:
     shifted: 123   # "{"
     unshifted: 91  # "["
@@ -82,8 +95,13 @@ WindowsAndLinuxCharCodeTranslations =
     shifted: 125   # "}"
     unshifted: 93  # "]"
   222:
-    shifted: 34    # '"'
-    unshifted: 39  # "'"
+#    shifted: 34    # '"'
+#    unshifted: 39  # "'"
+    shifted: 126    # '~'
+    unshifted: 94  # "^"
+  226:
+    shifted: 95    # "_"
+    unshifted: 92  # "\"
 
 NumPadToASCII =
   79: 47 # "/"
